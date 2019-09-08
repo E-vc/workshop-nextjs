@@ -1,0 +1,45 @@
+{
+  "name": "workshop-nextjs",
+  "version": "1.0.0",
+  "description": "Workshop with NextJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/E-vc/workshop-nextjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/E-vc/workshop-nextjs/issues"
+  },
+  "homepage": "https://github.com/E-vc/workshop-nextjs#readme",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.19.0",
+    "dotenv": "^8.1.0",
+    "next": "^9.0.5",
+    "next-redux-wrapper": "^3.0.0",
+    "node-sass": "^4.12.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "sass-resources-loader": "^2.0.1",
+    "svg-react-loader": "^0.4.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  }
+}

@@ -1,0 +1,3 @@
+const CHANGE_SEARCH = 'CHANGE_SEARCH';
+
+export default CHANGE_SEARCH;
